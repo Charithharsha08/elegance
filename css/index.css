@@ -1,4 +1,13 @@
-img {
+* {
+  margin: 0%;
+}
+#carouselExampleCaptions {
+  position: relative;
+  margin-top: -100px;
+  z-index: 2;
+}
+
+#carouselExampleCaptions img {
   width: 100vw;
   height: 100vh;
 }
@@ -13,4 +22,15 @@ img {
 nav {
   position: sticky;
   top: 0;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+.logo {
+  position: relative;
+  z-index: 3;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
