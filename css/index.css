@@ -2,9 +2,7 @@
   margin: 0%;
 }
 #carouselExampleCaptions {
-  position: relative;
   margin-top: -100px;
-  z-index: 2;
 }
 
 #carouselExampleCaptions img {
@@ -28,9 +26,13 @@ nav {
   height: 100px;
 }
 .logo {
-  position: relative;
-  z-index: 3;
+  display: flex;
+  justify-content: center;
+  position: sticky;
   top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.home-page {
+  width: 100vw;
+  height: 100vh;
 }
